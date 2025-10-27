@@ -112,3 +112,14 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+.console {
+  font-family: monospace;
+  white-space: pre;
+  line-height: 1em;
+  background: #000;
+  color: #fff;  
+  display: inline-block;
+  padding: 8px;
+  border: 2px solid #444;
+}
