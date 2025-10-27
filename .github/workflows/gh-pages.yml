@@ -19,21 +19,51 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.0.x
+          dotnet-version: |
+            8.0.x
+            9.0.x
+
+      - name: Show repo files
+        run: |
+          echo "::group::csproj files"
+          git ls-files '*.csproj'
+          echo "::endgroup::"
+          echo "::group::tree"
+          ls -R
+          echo "::endgroup::"
+
+      - name: Detect project file
+        id: detect
+        shell: bash
+        run: |
+          PROJECT="$(git ls-files '*.csproj' | head -n1)"
+          if [ -z "$PROJECT" ]; then
+            echo "No .csproj found. Ensure you committed your Blazor WASM project."
+            exit 1
+          fi
+          echo "PROJECT=$PROJECT" >> "$GITHUB_ENV"
+          echo "Detected: $PROJECT"
+
       - name: Publish
-        run: dotnet publish cellularLife.csproj -c Release -o publish
+        run: dotnet publish "$PROJECT" -c Release -o publish
+
       - name: Set base href
         run: |
           BASE_HREF="/cellularLife_blazor/"
           sed -i 's|<base href="/"\s*/>|<base href="'"$BASE_HREF"'" />|g' publish/wwwroot/index.html
           sed -i 's|<base href="/">|<base href="'"$BASE_HREF"'">|g' publish/wwwroot/index.html
+
       - name: Copy index.html to 404.html
         run: cp publish/wwwroot/index.html publish/wwwroot/404.html
+
       - name: Add .nojekyll
         run: touch publish/wwwroot/.nojekyll
+
       - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v4
         with:
           path: publish/wwwroot
