@@ -28,6 +28,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/Pages/CellularLife.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2VsbHVsYXJMaWZlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

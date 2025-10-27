@@ -1,7 +1,5 @@
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js
-/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.hp38rtduyl.pdb
-/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.lq43abdi4z.wasm
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/dotnet.js
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.map
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.l4ptthxatg.js
@@ -361,7 +359,6 @@
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.IO.Pipelines.vve9g3gzsp.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.ServiceProcess.3kd0o7aepk.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XmlDocument.huc9mgsfkg.wasm.gz
-/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.hp38rtduyl.pdb.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Security.Cryptography.Csp.zqotidn8du.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Reflection.Extensions.s0ha418gh6.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Web.HttpUtility.iahc8bnpll.wasm.gz
@@ -387,7 +384,6 @@
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Resources.Writer.gvjbhc12kg.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Win32.Primitives.y3qy6ezutd.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Formats.Asn1.yo7ehl2r8q.wasm.gz
-/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.lq43abdi4z.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.map.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Tasks.Extensions.pjxftf7hpj.wasm.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/Microsoft.JSInterop.80bvot621d.wasm.gz
@@ -1065,9 +1061,6 @@
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/e8zu7in25o-tjcz0u77k5.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/3rexdlgw94-tptq2av103.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/07x7jajo95-lfu7j35m59.gz
-/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-lq43abdi4z.gz
-/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-hp38rtduyl.gz
-/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-i4o7osnhd1.gz
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/staticwebassets.build.json
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/staticwebassets.development.json
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -1082,3 +1075,10 @@
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/refint/cellularLife.dll
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/cellularLife.pdb
 /home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/ref/cellularLife.dll
+/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.83271zd51l.pdb
+/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.ejr1xuzzz7.wasm
+/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.83271zd51l.pdb.gz
+/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.ejr1xuzzz7.wasm.gz
+/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-ejr1xuzzz7.gz
+/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-83271zd51l.gz
+/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-zufifcqqao.gz
