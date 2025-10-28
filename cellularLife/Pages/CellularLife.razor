@@ -1,23 +1,152 @@
 @page "/cellularlife"
+@implements IDisposable //clean up for timer. replacement solution as while(true) is not supported in blazor for this case.
+
 
 <PageTitle>Cellular Life</PageTitle>
 
 <h1>Game of Life</h1>
 
+<!-- 
 
-<pre class="console">@consoleText</pre>
+    Index:
+    1. Code
+    2. Table
 
-@code {
-    
-    const int Width = 100;
-    const int Height = 100;
-    string consoleText = "Hello World!";
+-->
 
-    protected override void OnInitialized(){
-    for(int i = 0; i <= Width; i++)
+<!-- 1. HTML / CSS -->
+
+@code{
+
+    int boardWidth = 200;
+    int boardHeight = 75;
+    int activeCells = 2400;
+     bool[,] board; 
+
+// ------------------------------------------------------
+// Neighbor cells are counted and returned as int (counter)
+// ------------------------------------------------------
+
+    int neighborCounter(bool[,] grid, int x, int y) // Analyses surroundings of processed cell & excludes itself. Returns number of detected neighbors.
     {
-        Console.WriteLine(consoleText);
+    int counter = 0;
+    for (int i = x -1; i <= x + 1; i++) //horizontal checker
+    {
+        for (int j = y - 1; j <= y + 1; j++) //vertical checker
+        {
+            bool isPartOfBoard = (i >= 0 && i < boardWidth && j >= 0 && j < boardHeight);
+            bool isYourself = (i  == x && j ==y);
+            if(isPartOfBoard && !isYourself && grid[i,j])
+            {
+                counter++;
+            }
+        }
     }
+    return counter;
     }
 
+// ------------------------------------------------------
+// Game Of Life ruleset is applied to cell based on neighborCounter(); output
+// ------------------------------------------------------
+
+
+    bool gameOfLife(bool[,] grid, int x, int y)
+    {
+    int neighbors = neighborCounter(grid, x, y);
+
+    if (grid[x,y]) //ruleset for cell that is alive
+    {
+        if(neighbors <= 1 || neighbors >= 4){
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+    else //rulset for cell that is dead
+    {
+        if(neighbors == 3)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+    }
+
+// ------------------------------------------------------
+// Fetches currentGrid returns newGrid after applying gameOfLife();
+// ------------------------------------------------------
+
+    bool[,] calculateGeneration(bool[,] currentGrid)
+    {
+    bool[,] newGrid = new bool[boardWidth, boardHeight];
+    for (int x = 0; x < boardWidth; x++)
+    {
+        for (int y = 0; y < boardHeight; y++)
+        {
+            newGrid[x,y] = gameOfLife(currentGrid, x, y);
+        }
+    }
+    return newGrid;
+    }
+
+// ------------------------------------------------------
+//  Start Game Loop
+// ------------------------------------------------------
+
+    private System.Threading.Timer _timer;
+    private int timeSteps = 100; //replaces part of Thread.Sleep(100)
+
+    protected override void OnInitialized() //Initializees board
+    {
+        StartGame();
+    }
+    
+    private void StartGame() //creates the board
+    {
+    board = new bool[boardWidth, boardHeight];
+    var random = new Random();
+
+    for (int i = 0; i < activeCells; i++) //populates the grid until activeCells is met
+        {
+        board[random.Next(boardWidth), random.Next(boardHeight)] = true;
+        }
+        // ------------------------------------------------------
+        // Weird magic starts here. Prototype works with while(true) which
+        // isn't great for this use case. So we're setting up a timer
+        // ------------------------------------------------------
+
+        _timer = new System.Threading.Timer(_ => //timer setup
+        {   //TODO actually learn lambdas thoroughly, this is way to confusing still
+            InvokeAsync(() =>  // capsulation workaround for StateHasChanged() only working as synchronous UI-Thread
+            {
+                board = calculateGeneration(board);  //calculate new generation
+                StateHasChanged();                   //request UI-Updated
+            });
+        }, null, timeSteps, timeSteps);
+    }
+    
+    public void Dispose()
+    {
+        _timer?.Dispose(); //timer is stopped, for example if user navigates somewhere else / memory leak savety guard
+    }
 }
+
+<!-- 2. HTML / CSS -->
+
+<table style="border-collapse: collapse;">
+@for (int y = 0; y < boardHeight; y++)
+{
+    <tr>
+    @for (int x = 0; x < boardWidth; x++)
+    {
+        <td style="width: 5px; height: 5px; background-color: @(board[x, y] ? "white" : "black");"></td> //if board returns  true = white, else black
+    }
+    </tr>
+}
+</table>

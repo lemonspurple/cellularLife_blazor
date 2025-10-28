@@ -56347,17 +56347,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vQqSg4bLFKUbRhbWgvvFmhL52TgM9XqlQxyVva1Vehk=\""
+          "Value": "\"rgXmYC8JlayAk+7hF1IIK4NtSFUSHgJy5WhU+Tr1kC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vQqSg4bLFKUbRhbWgvvFmhL52TgM9XqlQxyVva1Vehk="
+          "Value": "sha256-rgXmYC8JlayAk+7hF1IIK4NtSFUSHgJy5WhU+Tr1kC8="
         }
       ]
     },
@@ -56368,7 +56368,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081109579"
+          "Quality": "0.000081122739"
         }
       ],
       "ResponseHeaders": [
@@ -56386,7 +56386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12328"
+          "Value": "12326"
         },
         {
           "Name": "Content-Type",
@@ -56394,15 +56394,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WUMRxu2HXHGix3ki8ANhlTYYpMywz2hyf3rdOTNnJ3E=\""
+          "Value": "\"rwYvxgvA2iV2QPGEmGC74ViyudKCxpT4/zvVt3oKQZo=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vQqSg4bLFKUbRhbWgvvFmhL52TgM9XqlQxyVva1Vehk=\""
+          "Value": "W/\"rgXmYC8JlayAk+7hF1IIK4NtSFUSHgJy5WhU+Tr1kC8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 19:48:47 GMT"
+          "Value": "Tue, 28 Oct 2025 20:20:09 GMT"
         },
         {
           "Name": "Vary",
@@ -56412,7 +56412,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vQqSg4bLFKUbRhbWgvvFmhL52TgM9XqlQxyVva1Vehk="
+          "Value": "sha256-rgXmYC8JlayAk+7hF1IIK4NtSFUSHgJy5WhU+Tr1kC8="
         }
       ]
     },
@@ -56435,7 +56435,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12328"
+          "Value": "12326"
         },
         {
           "Name": "Content-Type",
@@ -56443,11 +56443,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WUMRxu2HXHGix3ki8ANhlTYYpMywz2hyf3rdOTNnJ3E=\""
+          "Value": "\"rwYvxgvA2iV2QPGEmGC74ViyudKCxpT4/zvVt3oKQZo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 19:48:47 GMT"
+          "Value": "Tue, 28 Oct 2025 20:20:09 GMT"
         },
         {
           "Name": "Vary",
@@ -56457,7 +56457,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WUMRxu2HXHGix3ki8ANhlTYYpMywz2hyf3rdOTNnJ3E="
+          "Value": "sha256-rwYvxgvA2iV2QPGEmGC74ViyudKCxpT4/zvVt3oKQZo="
         }
       ]
     },
@@ -56599,8 +56599,8 @@
       ]
     },
     {
-      "Route": "_framework/cellularLife.axl5y60b5w.wasm",
-      "AssetFile": "_framework/cellularLife.axl5y60b5w.wasm",
+      "Route": "_framework/cellularLife.bfayzp56pw.pdb",
+      "AssetFile": "_framework/cellularLife.bfayzp56pw.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -56613,168 +56613,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20757"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:51 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "axl5y60b5w"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cellularLife.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.axl5y60b5w.wasm",
-      "AssetFile": "_framework/cellularLife.axl5y60b5w.wasm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000121359223"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8239"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PpaJUs/8E5pic8VZf1RF4xAY8i3d+aHwCXoB4ElV4MQ=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "axl5y60b5w"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cellularLife.wasm"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.axl5y60b5w.wasm.gz",
-      "AssetFile": "_framework/cellularLife.axl5y60b5w.wasm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8239"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PpaJUs/8E5pic8VZf1RF4xAY8i3d+aHwCXoB4ElV4MQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "axl5y60b5w"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PpaJUs/8E5pic8VZf1RF4xAY8i3d+aHwCXoB4ElV4MQ="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cellularLife.wasm.gz"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.dh4qoiqjln.pdb",
-      "AssetFile": "_framework/cellularLife.dh4qoiqjln.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25160"
+          "Value": "27472"
         },
         {
           "Name": "Content-Type",
@@ -56782,21 +56621,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY=\""
+          "Value": "\"ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:51 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh4qoiqjln"
+          "Value": "bfayzp56pw"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY="
+          "Value": "sha256-ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM="
         },
         {
           "Name": "label",
@@ -56805,13 +56644,13 @@
       ]
     },
     {
-      "Route": "_framework/cellularLife.dh4qoiqjln.pdb",
-      "AssetFile": "_framework/cellularLife.dh4qoiqjln.pdb.gz",
+      "Route": "_framework/cellularLife.bfayzp56pw.pdb",
+      "AssetFile": "_framework/cellularLife.bfayzp56pw.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054112554"
+          "Quality": "0.000048926073"
         }
       ],
       "ResponseHeaders": [
@@ -56829,7 +56668,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18479"
+          "Value": "20438"
         },
         {
           "Name": "Content-Type",
@@ -56837,15 +56676,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rt6M4JUsbHacpAAhWd3mNDrIBmXFlHy9fJVqFdd+E80=\""
+          "Value": "\"zr7X9EUiHCKOPx3CAGwLUKtaLG92hsTKW7MttTebNS4=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY=\""
+          "Value": "W/\"ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         },
         {
           "Name": "Vary",
@@ -56855,11 +56694,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh4qoiqjln"
+          "Value": "bfayzp56pw"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY="
+          "Value": "sha256-ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM="
         },
         {
           "Name": "label",
@@ -56868,8 +56707,8 @@
       ]
     },
     {
-      "Route": "_framework/cellularLife.dh4qoiqjln.pdb.gz",
-      "AssetFile": "_framework/cellularLife.dh4qoiqjln.pdb.gz",
+      "Route": "_framework/cellularLife.bfayzp56pw.pdb.gz",
+      "AssetFile": "_framework/cellularLife.bfayzp56pw.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -56886,7 +56725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18479"
+          "Value": "20438"
         },
         {
           "Name": "Content-Type",
@@ -56894,11 +56733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rt6M4JUsbHacpAAhWd3mNDrIBmXFlHy9fJVqFdd+E80=\""
+          "Value": "\"zr7X9EUiHCKOPx3CAGwLUKtaLG92hsTKW7MttTebNS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         },
         {
           "Name": "Vary",
@@ -56908,11 +56747,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh4qoiqjln"
+          "Value": "bfayzp56pw"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rt6M4JUsbHacpAAhWd3mNDrIBmXFlHy9fJVqFdd+E80="
+          "Value": "sha256-zr7X9EUiHCKOPx3CAGwLUKtaLG92hsTKW7MttTebNS4="
         },
         {
           "Name": "label",
@@ -56922,7 +56761,7 @@
     },
     {
       "Route": "_framework/cellularLife.pdb",
-      "AssetFile": "_framework/cellularLife.dh4qoiqjln.pdb",
+      "AssetFile": "_framework/cellularLife.bfayzp56pw.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -56935,7 +56774,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25160"
+          "Value": "27472"
         },
         {
           "Name": "Content-Type",
@@ -56943,28 +56782,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY=\""
+          "Value": "\"ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:51 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY="
+          "Value": "sha256-ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM="
         }
       ]
     },
     {
       "Route": "_framework/cellularLife.pdb",
-      "AssetFile": "_framework/cellularLife.dh4qoiqjln.pdb.gz",
+      "AssetFile": "_framework/cellularLife.bfayzp56pw.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054112554"
+          "Quality": "0.000048926073"
         }
       ],
       "ResponseHeaders": [
@@ -56982,7 +56821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18479"
+          "Value": "20438"
         },
         {
           "Name": "Content-Type",
@@ -56990,15 +56829,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rt6M4JUsbHacpAAhWd3mNDrIBmXFlHy9fJVqFdd+E80=\""
+          "Value": "\"zr7X9EUiHCKOPx3CAGwLUKtaLG92hsTKW7MttTebNS4=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY=\""
+          "Value": "W/\"ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         },
         {
           "Name": "Vary",
@@ -57008,13 +56847,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z2av/Pn+S8nS5SPo0QrXq5q+62dynci7+8YZtvyoOdY="
+          "Value": "sha256-ub8ydqkPYjnxhmAyRPh0W9gmBnaFIlKYGQLHP+ZY5RM="
         }
       ]
     },
     {
       "Route": "_framework/cellularLife.pdb.gz",
-      "AssetFile": "_framework/cellularLife.dh4qoiqjln.pdb.gz",
+      "AssetFile": "_framework/cellularLife.bfayzp56pw.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -57031,7 +56870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18479"
+          "Value": "20438"
         },
         {
           "Name": "Content-Type",
@@ -57039,11 +56878,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rt6M4JUsbHacpAAhWd3mNDrIBmXFlHy9fJVqFdd+E80=\""
+          "Value": "\"zr7X9EUiHCKOPx3CAGwLUKtaLG92hsTKW7MttTebNS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         },
         {
           "Name": "Vary",
@@ -57053,13 +56892,174 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rt6M4JUsbHacpAAhWd3mNDrIBmXFlHy9fJVqFdd+E80="
+          "Value": "sha256-zr7X9EUiHCKOPx3CAGwLUKtaLG92hsTKW7MttTebNS4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.t5nqfit0yv.wasm",
+      "AssetFile": "_framework/cellularLife.t5nqfit0yv.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t5nqfit0yv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cellularLife.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.t5nqfit0yv.wasm",
+      "AssetFile": "_framework/cellularLife.t5nqfit0yv.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000110302228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+iA186I9IxcOLmsKr1ozkI4VM+Ky2SlJdZuZS8LVLGM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t5nqfit0yv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cellularLife.wasm"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.t5nqfit0yv.wasm.gz",
+      "AssetFile": "_framework/cellularLife.t5nqfit0yv.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+iA186I9IxcOLmsKr1ozkI4VM+Ky2SlJdZuZS8LVLGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t5nqfit0yv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+iA186I9IxcOLmsKr1ozkI4VM+Ky2SlJdZuZS8LVLGM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cellularLife.wasm.gz"
         }
       ]
     },
     {
       "Route": "_framework/cellularLife.wasm",
-      "AssetFile": "_framework/cellularLife.axl5y60b5w.wasm",
+      "AssetFile": "_framework/cellularLife.t5nqfit0yv.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -57072,7 +57072,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20757"
+          "Value": "22293"
         },
         {
           "Name": "Content-Type",
@@ -57080,28 +57080,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io=\""
+          "Value": "\"P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:51 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io="
+          "Value": "sha256-P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0="
         }
       ]
     },
     {
       "Route": "_framework/cellularLife.wasm",
-      "AssetFile": "_framework/cellularLife.axl5y60b5w.wasm.gz",
+      "AssetFile": "_framework/cellularLife.t5nqfit0yv.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000121359223"
+          "Quality": "0.000110302228"
         }
       ],
       "ResponseHeaders": [
@@ -57119,7 +57119,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8239"
+          "Value": "9065"
         },
         {
           "Name": "Content-Type",
@@ -57127,15 +57127,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PpaJUs/8E5pic8VZf1RF4xAY8i3d+aHwCXoB4ElV4MQ=\""
+          "Value": "\"+iA186I9IxcOLmsKr1ozkI4VM+Ky2SlJdZuZS8LVLGM=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io=\""
+          "Value": "W/\"P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         },
         {
           "Name": "Vary",
@@ -57145,13 +57145,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PvgshBhpD64lLEInFQbQL2uKzZKorGJSv1k/LcYc0io="
+          "Value": "sha256-P0FqUVCkfV3y2dSOqwDBoy8SVhw1B4hBtZqT68c1lm0="
         }
       ]
     },
     {
       "Route": "_framework/cellularLife.wasm.gz",
-      "AssetFile": "_framework/cellularLife.axl5y60b5w.wasm.gz",
+      "AssetFile": "_framework/cellularLife.t5nqfit0yv.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -57168,7 +57168,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8239"
+          "Value": "9065"
         },
         {
           "Name": "Content-Type",
@@ -57176,11 +57176,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PpaJUs/8E5pic8VZf1RF4xAY8i3d+aHwCXoB4ElV4MQ=\""
+          "Value": "\"+iA186I9IxcOLmsKr1ozkI4VM+Ky2SlJdZuZS8LVLGM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 08:24:52 GMT"
+          "Value": "Tue, 28 Oct 2025 20:23:25 GMT"
         },
         {
           "Name": "Vary",
@@ -57190,7 +57190,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PpaJUs/8E5pic8VZf1RF4xAY8i3d+aHwCXoB4ElV4MQ="
+          "Value": "sha256-+iA186I9IxcOLmsKr1ozkI4VM+Ky2SlJdZuZS8LVLGM="
         }
       ]
     },
