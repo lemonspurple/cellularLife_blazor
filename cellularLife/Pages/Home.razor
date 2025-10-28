@@ -10,3 +10,5 @@
 
 The two main differences between my Console App solution is that the rendering isn't happening through a "Console.SetCursorPosition(x, y);" logic, but rather recolors the individual cells using a teritiary operator as follows "background-color: &commat;(board[x, y] ? "white" : "black"".<br />
 Secondly, the Console runs on an always true while loop that paces itself through a Thread.Sleep(100);. While this might be fine for a quick prototype, in the Blazor variant, I use StateHasChanged(); to update the board. This function has to be capsulated into an InvokeAsync() to work around synchronous UI requirements for using this logic.
+<br />
+<p><a href="cellularlife"><h4>Play it here.</h4></a></p>
