@@ -2,9 +2,9 @@
 @implements IDisposable //clean up for timer. replacement solution as while(true) is not supported in blazor for this case.
 
 
-<PageTitle>Cellular Life</PageTitle>
+<PageTitle>Conway's Game of Life</PageTitle>
 
-<h1>Game of Life</h1>
+<h1>Conway's Game of Life</h1>
 
 <!-- 
 
@@ -135,9 +135,37 @@
     {
         _timer?.Dispose(); //timer is stopped, for example if user navigates somewhere else / memory leak savety guard
     }
+
+// ------------------------------------------------------
+// Restart function
+// ------------------------------------------------------
+    private void restartGame()
+    {
+    _timer?.Dispose();
+    StartGame();
+    }
+
 }
 
 <!-- 2. HTML / CSS -->
+
+<div>
+<h3>Options</h3>
+
+<details class="options-box">
+
+<label>Width:</label>
+<input type="number" @bind="boardWidth" min="100" />
+<label>Height:</label>
+<input type="number" @bind="boardHeight" min="100" /><br />
+<label>Living cells at start:</label>
+<input type="number" @bind="activeCells" min="0" />
+<label>Intervall (millisseconds):</label>
+<input type="number" @bind="timeSteps" min="1" /><br />
+</details>
+</div>
+<button @onclick="restartGame">Restart</button>
+
 
 <table style="border-collapse: collapse;">
 @for (int y = 0; y < boardHeight; y++)

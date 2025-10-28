@@ -1,7 +1,12 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Info</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Hello, visitor!</h1>
 
-Welcome to your new app.
+<p>This is an example of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> made in the Blaze Framework / C#. </p>
+<p>A working script that runs in the console can be found in the following repository:<br />
+<a href="https://github.com/lemonspurple/csharp_learning_projects/blob/main/Game%20Of%20Life/gameOfLife/Program.cs">https://github.com/lemonspurple/csharp_learning_projects</a></p>
+
+The two main differences between my Console App solution is that the rendering isn't happening through a "Console.SetCursorPosition(x, y);" logic, but rather recolors the individual cells using a teritiary operator as follows "background-color: &commat;(board[x, y] ? "white" : "black"".<br />
+Secondly, the Console runs on an always true while loop that paces itself through a Thread.Sleep(100);. While this might be fine for a quick prototype, in the Blazor variant, I use StateHasChanged(); to update the board. This function has to be capsulated into an InvokeAsync() to work around synchronous UI requirements for using this logic.

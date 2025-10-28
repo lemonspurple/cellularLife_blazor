@@ -113,13 +113,30 @@ code {
     text-align: start;
 }
 
-.console {
+details.options-box {
+  width: fit-content;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background: #111;
+  border: 2px solid #555;
+  border-radius: 10px;
+  color: white;
   font-family: monospace;
-  white-space: pre;
-  line-height: 1em;
-  background: #000;
-  color: #fff;  
-  display: inline-block;
-  padding: 8px;
-  border: 2px solid #444;
+}
+
+details.options-box summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #9cf;
+}
+
+details.options-box summary:hover {
+  color: #fff;
+}
+
+details.options-box div {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
 }
