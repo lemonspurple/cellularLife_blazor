@@ -150,21 +150,20 @@
 <!-- 2. HTML / CSS -->
 
 <div>
-<h3>Options</h3>
-
-<details class="options-box">
-
-<label>Width:</label>
+<div class="options-box">
+<h4>Options</h4>
+<p><label>Width: </label>
 <input type="number" @bind="boardWidth" min="100" />
-<label>Height:</label>
-<input type="number" @bind="boardHeight" min="100" /><br />
-<label>Living cells at start:</label>
+<label>Height: </label>
+<input type="number" @bind="boardHeight" min="100" /><br /></p>
+<p><label>Starter Cells: </label>
 <input type="number" @bind="activeCells" min="0" />
-<label>Intervall (millisseconds):</label>
-<input type="number" @bind="timeSteps" min="1" /><br />
-</details>
+<label>Intervall (ms): </label>
+<input type="number" @bind="timeSteps" min="1" /></p><br />
 </div>
-<button @onclick="restartGame">Restart</button>
+</div>
+<button class="options-box" @onclick="restartGame" style="background-color:#3a0646;
+">Restart</button>
 
 
 <table style="border-collapse: collapse;">

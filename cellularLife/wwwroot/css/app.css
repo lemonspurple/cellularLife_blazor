@@ -113,29 +113,28 @@ code {
     text-align: start;
 }
 
-details.options-box {
+.options-box {
   width: fit-content;
   margin: 1em 0;
   padding: 0.5em 1em;
-  background: #111;
-  border: 2px solid #555;
-  border-radius: 10px;
-  color: white;
-  font-family: monospace;
+  background: #092465;
+  border: 2px solid #05163d;
+  border-radius: 2px;
+  color: #d7d7d7;
 }
 
-details.options-box summary {
+.options-box summary {
   cursor: pointer;
   font-weight: bold;
-  color: #9cf;
+  color: #d7d7d7;
 }
 
-details.options-box summary:hover {
+.options-box summary:hover {
   color: #fff;
 }
 
-details.options-box div {
-  margin-top: 0.5em;
+.options-box div {
+  margin-top: 0.2em;
   display: flex;
   flex-direction: column;
   gap: 0.3em;
