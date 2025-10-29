@@ -21,7 +21,9 @@
     int boardWidth = 200;
     int boardHeight = 75;
     int activeCells = 2400;
-     bool[,] board; 
+    bool[,] board; 
+
+    
 
 // ------------------------------------------------------
 // Neighbor cells are counted and returned as int (counter)
@@ -142,7 +144,24 @@
     private void restartGame()
     {
     _timer?.Dispose();
+    resizeGame();
     StartGame();
+    }
+
+// ------------------------------------------------------
+// Resize function
+// ------------------------------------------------------
+    int boardWidthNew = 200;
+    int boardHeightNew = 75;
+    int activeCellsNew = 2400;
+    int timeStepsNew = 100;
+
+    private void resizeGame() //assignment happens on refresh, after timer is stopped. This cicumvents a possible buffer overflow.
+    {
+        boardWidth = boardWidthNew;
+        boardHeight = boardHeightNew;
+        activeCells = activeCellsNew;
+        timeSteps = timeStepsNew;
     }
 
 }
@@ -153,13 +172,13 @@
 <div class="options-box">
 <h4>Options</h4>
 <p><label>Width: </label>
-<input type="number" @bind="boardWidth" min="100" />
+<input type="number" @bind="boardWidthNew" min="1" />
 <label>Height: </label>
-<input type="number" @bind="boardHeight" min="100" /><br /></p>
+<input type="number" @bind="boardHeightNew" min="1" /><br /></p>
 <p><label>Starter Cells: </label>
-<input type="number" @bind="activeCells" min="0" />
+<input type="number" @bind="activeCellsNew" min="0" />
 <label>Intervall (ms): </label>
-<input type="number" @bind="timeSteps" min="1" /></p><br />
+<input type="number" @bind="timeStepsNew" min="1" /></p><br />
 </div>
 </div>
 <button class="options-box" @onclick="restartGame" style="background-color:#3a0646;
