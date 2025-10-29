@@ -1,14 +1,16 @@
 ﻿@page "/"
 
 <PageTitle>Info</PageTitle>
-
+<div id="wrapper" style="max-width:720px;">
 <h1>Hello, visitor!</h1>
 
-<p>This is an example of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> made in the Blaze Framework / C#. </p>
-<p>A working script that runs in the console can be found in the following repository:<br />
+<p>This is an example of a <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> implementation made in the Blaze framework / C#. </p>
+<p>My initial console script can be found in the following repository:<br />
 <a href="https://github.com/lemonspurple/csharp_learning_projects/blob/main/Game%20Of%20Life/gameOfLife/Program.cs">https://github.com/lemonspurple/csharp_learning_projects</a></p>
 
-The two main differences between my Console App solution is that the rendering isn't happening through a "Console.SetCursorPosition(x, y);" logic, but rather recolors the individual cells using a teritiary operator as follows "background-color: &commat;(board[x, y] ? "white" : "black"".<br />
-Secondly, the Console runs on an always true while loop that paces itself through a Thread.Sleep(100);. While this might be fine for a quick prototype, in the Blazor variant, I use StateHasChanged(); to update the board. This function has to be capsulated into an InvokeAsync() to work around synchronous UI requirements for using this logic.
+The two main differences between the ConsoleApp solution is that the rendering isn't happening through a "Console.SetCursorPosition(x, y);" logic, but rather recolors the individual cells (which are HTML table rows and columns) using a neat little <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator">teritiary operator</a> as follows:<br /> background-color: &commat;(board[x, y] ? "white" : "black"<br />
+<br />
+Secondly, the Console runs on an always true while loop that paces itself through a Thread.Sleep(100). While this might be fine for a quick prototype, in the Blazor variant, I used StateHasChanged(); to update the board. This function has to be capsulated into an InvokeAsync() to work around synchronous UI requirements.
 <br />
 <p><a href="cellularlife"><h4>Play it here.</h4></a></p>
+</div>
