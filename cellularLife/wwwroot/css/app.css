@@ -22,7 +22,7 @@ a, .btn-link {
 }
 
 .content {
-    padding-top: 1.1rem;
+    padding-top: 0rem;
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -118,9 +118,9 @@ code {
   width: fit-content;
   margin: 1em 0;
   padding: 0.5em 1em;
-  background: #092465;
-  border: 2px solid #05163d;
-  border-radius: 2px;
+  background: #000;
+  border: 1px solid #cecece;
+  border-radius: 1px;
   color: #d7d7d7;
 }
 

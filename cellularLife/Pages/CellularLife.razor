@@ -2,9 +2,9 @@
 @implements IDisposable //clean up for timer. replacement solution as while(true) is not supported in blazor for this case.
 
 
-<PageTitle>Conway's Game of Life</PageTitle>
+<PageTitle>Conway's Game of Life in Blazor</PageTitle>
 
-<h1>Conway's Game of Life</h1>
+
 
 <!-- 
 
@@ -226,19 +226,18 @@
 }
 </table>
 
-<div>
-<div class="options-box">
-<h4>Options</h4>
-<p><label>Width: </label>
-<input type="number" @bind="boardWidthNew" min="1" />
-<label>Height: </label>
-<input type="number" @bind="boardHeightNew" min="1" /><br /></p>
-<p><label>Starter Cells: </label>
-<input type="number" @bind="activeCellsNew" min="0" />
-<label>Intervall (ms): </label>
-<input type="number" @bind="timeStepsNew" min="1" /></p><br />
-</div>
-</div>
+    <div class="options-box">
+    <h4>Options</h4>
+    <p><label>Width: </label>
+    <input type="number" @bind="boardWidthNew" min="1" /> 
+    <label>Height: </label>
+    <input type="number" @bind="boardHeightNew" min="1" /> 
+    <label>Starter Cells: </label>
+    <input type="number" @bind="activeCellsNew" min="0" /> 
+    <label>Intervall (ms): </label>
+    <input type="number" @bind="timeStepsNew" min="1" /></p><br />
+    <a href="https://github.com/lemonspurple" target="_blank">🍋 LemonsPurple &commat; GitHub</a>
+    </div>
 <button class="options-box" @onclick="restartGame" style="background-color:#3a0646;
 ">Restart</button><button class="options-box" @onclick="stopGame" style="background-color:#3a0646;
 ">Stop</button><button class="options-box" @onclick="ContinueGame" style="background-color:#3a0646;
