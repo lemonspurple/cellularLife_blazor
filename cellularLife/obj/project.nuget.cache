@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ooPL46X5n3M=",
+  "dgSpecHash": "4UOLX32K+x8=",
   "success": true,
   "projectFilePath": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/cellularLife.csproj",
   "expectedPackageFiles": [
@@ -28,9 +28,9 @@
     "/home/lmpl/.nuget/packages/microsoft.extensions.primitives/9.0.10/microsoft.extensions.primitives.9.0.10.nupkg.sha512",
     "/home/lmpl/.nuget/packages/microsoft.jsinterop/9.0.10/microsoft.jsinterop.9.0.10.nupkg.sha512",
     "/home/lmpl/.nuget/packages/microsoft.jsinterop.webassembly/9.0.10/microsoft.jsinterop.webassembly.9.0.10.nupkg.sha512",
-    "/home/lmpl/.nuget/packages/microsoft.net.illink.tasks/9.0.10/microsoft.net.illink.tasks.9.0.10.nupkg.sha512",
-    "/home/lmpl/.nuget/packages/microsoft.net.sdk.webassembly.pack/9.0.10/microsoft.net.sdk.webassembly.pack.9.0.10.nupkg.sha512",
-    "/home/lmpl/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/9.0.10/microsoft.netcore.app.runtime.mono.browser-wasm.9.0.10.nupkg.sha512"
+    "/home/lmpl/.nuget/packages/microsoft.net.illink.tasks/9.0.11/microsoft.net.illink.tasks.9.0.11.nupkg.sha512",
+    "/home/lmpl/.nuget/packages/microsoft.net.sdk.webassembly.pack/9.0.11/microsoft.net.sdk.webassembly.pack.9.0.11.nupkg.sha512",
+    "/home/lmpl/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/9.0.11/microsoft.netcore.app.runtime.mono.browser-wasm.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

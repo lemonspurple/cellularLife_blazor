@@ -22,6 +22,7 @@
     int boardHeight = 75;
     int activeCells = 2400;
     bool[,] board; 
+    bool isRunning = true;
 
     
 
@@ -84,18 +85,18 @@
 // Fetches currentGrid returns newGrid after applying gameOfLife();
 // ------------------------------------------------------
 
-    bool[,] calculateGeneration(bool[,] currentGrid)
-    {
-    bool[,] newGrid = new bool[boardWidth, boardHeight];
-    for (int x = 0; x < boardWidth; x++)
-    {
-        for (int y = 0; y < boardHeight; y++)
+        bool[,] calculateGeneration(bool[,] currentGrid)
         {
-            newGrid[x,y] = gameOfLife(currentGrid, x, y);
+        bool[,] newGrid = new bool[boardWidth, boardHeight];
+        for (int x = 0; x < boardWidth; x++)
+        {
+            for (int y = 0; y < boardHeight; y++)
+            {
+                newGrid[x,y] = gameOfLife(currentGrid, x, y);
+            }
         }
-    }
-    return newGrid;
-    }
+        return newGrid;
+        }
 
 // ------------------------------------------------------
 //  Start Game Loop
@@ -111,31 +112,52 @@
     
     private void StartGame() //creates the board
     {
-    board = new bool[boardWidth, boardHeight];
-    var random = new Random();
+        InitBoard();
+        StartTimer();
+    }
 
-    for (int i = 0; i < activeCells; i++) //populates the grid until activeCells is met
+    private void InitBoard()
+    {
+        board = new bool[boardWidth, boardHeight];
+        var random = new Random();
+
+        for (int i = 0; i < activeCells; i++) //populates the grid until activeCells is met
         {
         board[random.Next(boardWidth), random.Next(boardHeight)] = true;
         }
+    }
+
+    private void StartTimer()
+    {
+        if (_timer == null)
+        {
         // ------------------------------------------------------
         // Weird magic starts here. Prototype works with while(true) which
         // isn't great for this use case. So we're setting up a timer
         // ------------------------------------------------------
 
-        _timer = new System.Threading.Timer(_ => //timer setup
-        {   //TODO actually learn lambdas thoroughly, this is way to confusing still
-            InvokeAsync(() =>  // capsulation workaround for StateHasChanged() only working as synchronous UI-Thread
-            {
-                board = calculateGeneration(board);  //calculate new generation
-                StateHasChanged();                   //request UI-Updated
-            });
-        }, null, timeSteps, timeSteps);
+            _timer = new System.Threading.Timer(_ => //timer setup
+            {   //TODO actually learn lambdas thoroughly, this is way to confusing still
+                InvokeAsync(() =>  // capsulation workaround for StateHasChanged() only working as synchronous UI-Thread
+                {
+                    board = calculateGeneration(board);  //calculate new generation
+                    StateHasChanged();                   //request UI-Updated
+                });
+            }, null, timeSteps, timeSteps);
+        }
+        else
+        {
+            _timer.Change(timeSteps, timeSteps);
+        }
+
+        isRunning = true;
     }
     
     public void Dispose()
     {
         _timer?.Dispose(); //timer is stopped, for example if user navigates somewhere else / memory leak savety guard
+        _timer = null;
+        isRunning = false;
     }
 
 // ------------------------------------------------------
@@ -143,7 +165,7 @@
 // ------------------------------------------------------
     private void restartGame()
     {
-    _timer?.Dispose();
+    stopGame();
     resizeGame();
     StartGame();
     }
@@ -164,9 +186,45 @@
         timeSteps = timeStepsNew;
     }
 
+// ------------------------------------------------------
+// Stop function
+// ------------------------------------------------------
+    private void stopGame(){
+        if (_timer != null && isRunning)
+        {
+            _timer.Change(System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite);
+            isRunning = false;
+        }
+    }
+
+    private void ContinueGame()
+    {
+        if (_timer != null && !isRunning)
+        {
+            _timer.Change(timeSteps, timeSteps);
+            isRunning = true;
+        }
+    }
+
 }
 
+
 <!-- 2. HTML / CSS -->
+
+
+
+
+<table style="border-collapse: collapse;">
+@for (int y = 0; y < boardHeight; y++)
+{
+    <tr>
+    @for (int x = 0; x < boardWidth; x++)
+    {
+        <td style="width: 5px; height: 5px; background-color: @(board[x, y] ? "white" : "black");"></td> //if board returns  true = white, else black
+    }
+    </tr>
+}
+</table>
 
 <div>
 <div class="options-box">
@@ -182,17 +240,6 @@
 </div>
 </div>
 <button class="options-box" @onclick="restartGame" style="background-color:#3a0646;
-">Restart</button>
-
-
-<table style="border-collapse: collapse;">
-@for (int y = 0; y < boardHeight; y++)
-{
-    <tr>
-    @for (int x = 0; x < boardWidth; x++)
-    {
-        <td style="width: 5px; height: 5px; background-color: @(board[x, y] ? "white" : "black");"></td> //if board returns  true = white, else black
-    }
-    </tr>
-}
-</table>
+">Restart</button><button class="options-box" @onclick="stopGame" style="background-color:#3a0646;
+">Stop</button><button class="options-box" @onclick="ContinueGame" style="background-color:#3a0646;
+">Continue</button>
