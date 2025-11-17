@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>u4or147sg1</Fingerprint>
-      <Integrity>7lNkMJ1I2cUH69B4KMfmev05gBWdsLB7GQ7z9ANt6/8=</Integrity>
+      <Fingerprint>1cnohmlwxz</Fingerprint>
+      <Integrity>IaUwSxAMI4EKwu0j/24RxRM32FyDkFE7rUJI15PK1+I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cellularLife.styles.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p6ssgn2ee4</Fingerprint>
-      <Integrity>Txb5ts6BACnHDiRf6r3QLuZgZwK6Bdjrgc3K3AT0F74=</Integrity>
+      <Fingerprint>lq4pjxm55n</Fingerprint>
+      <Integrity>w2S0YJgbs+XiaJCA5cWfYXoATGY0EWwUFy4HxG2A04M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ybkh2zpahv</Fingerprint>
-      <Integrity>0sAnbR6hd1ahvOagTTT/HEXphE+sR+ULbzD8byE8ljI=</Integrity>
+      <Fingerprint>buhc6j2x4q</Fingerprint>
+      <Integrity>rcjywA19coDwulpXGpYgJDXdZjJZ2R7BDEg6zXSsgaw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
