@@ -21,13 +21,13 @@
     int boardWidth = 180;
     int boardHeight = 180;
     int activeCells = 5400;
-    bool[,] board; 
+    bool[,] board;
     bool isRunning = true;
     int TableWidthPx => boardWidth * tdWidth;
     string cellAliveColor;
     string cellDeadColor;
-    string newCellAliveColor= "#FFF";
-    string newCellDeadColor= "#000";
+    string newCellAliveColor = "#FFF";
+    string newCellDeadColor = "#000";
 
     
 
@@ -242,44 +242,52 @@
 
 
 <div class="game-container">
-<table class="life-grid" style="border-collapse: collapse; table-layout: fixed; width: @(TableWidthPx)px; display:inline-block;">
-@for (int y = 0; y < boardHeight; y++)
-    {
-        <tr>
-        @for (int x = 0; x < boardWidth; x++)
+    <table class="life-grid"
+        style="border-collapse: collapse; table-layout: fixed; width: @(TableWidthPx)px; display:inline-block;">
+        @for (int y = 0; y < boardHeight; y++)
         {
-            <td style="width:@(tdWidth)px; height:@(tdHeight)px; background-color:@(board[x, y] ? (@cellAliveColor) : (@cellDeadColor));"></td>
+            <tr>
+                @for (int x = 0; x < boardWidth; x++)
+                {
+                    <td
+                        style="width:@(tdWidth)px; height:@(tdHeight)px; background-color:@(board[x, y] ? (@cellAliveColor) : (@cellDeadColor));">
+                    </td>
+                }
+            </tr>
         }
-        </tr>
-    }
     </table>
     <div class="@MenuCssClass">
         <h4><b>Options</b></h4>
         <p><label>Width: </label>
-        <input type="number" @bind="boardWidthNew" min="1" /> 
-        <label>Height: </label>
-        <input type="number" @bind="boardHeightNew" min="1" /> </p>
+            <input type="number" @bind="boardWidthNew" min="1" />
+            <label>Height: </label>
+            <input type="number" @bind="boardHeightNew" min="1" />
+        </p>
         <p>
-        <label>Starter Cells: </label>
-        <input type="number" @bind="activeCellsNew" min="0" /> 
-        <label>Intervall (ms): </label>
-        <input type="number" @bind="timeStepsNew" min="1" /><br /></p>
+            <label>Starter Cells: </label>
+            <input type="number" @bind="activeCellsNew" min="0" />
+            <label>Intervall (ms): </label>
+            <input type="number" @bind="timeStepsNew" min="1" /><br />
+        </p>
         <p><label>Cell width: </label>
-        <input type="number" @bind="tdWidthNew" min="5" /> 
-        <label>Cell height: </label>
-        <input type="number" @bind="tdHeightNew" min="5" /> </p>
+            <input type="number" @bind="tdWidthNew" min="5" />
+            <label>Cell height: </label>
+            <input type="number" @bind="tdHeightNew" min="5" />
+        </p>
         <p><label>Cell color: </label>
-        <input type="text" @bind="newCellAliveColor"/> 
-        <label>Background color: </label>
-        <input type="text" @bind="newCellDeadColor"/> </p>
+            <input type="text" @bind="newCellAliveColor" />
+            <label>Background color: </label>
+            <input type="text" @bind="newCellDeadColor" />
+        </p>
         <p>
-        <button class="nav-box" @onclick="restartGame">&#x23EE;</button>
-        <button class="nav-box" @onclick="stopGame">&#9208;</button>
-        <button class="nav-box" @onclick="ContinueGame">▶</button></p>
+            <button class="nav-box" @onclick="restartGame">&#x23EE;</button>
+            <button class="nav-box" @onclick="stopGame">&#9208;</button>
+            <button class="nav-box" @onclick="ContinueGame">▶</button>
+        </p>
         <a href="https://github.com/lemonspurple" target="_blank">LemonsPurple &commat; GitHub</a><br />
         <NavLink href="info">About</NavLink>
     </div>
 </div>
-    <button @onclick="ToggleOptions" class="options-toggle">
-        @OptionsEye
-    </button>
+<button @onclick="ToggleOptions" class="options-toggle">
+    @OptionsEye
+</button>

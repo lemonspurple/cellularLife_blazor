@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6jHOCBeuaTZHEI+85GmBkoDczvpVWmUa1RNz4RmofhQ=",
+  "Hash": "apiWJduWpSddc9/5B9XF9fchYHFtiAhG4xTcs+BTeLI=",
   "Source": "cellularLife",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "jz01uof5ik",
-      "Integrity": "Pylsb4YiLVgZAfCXnHoLpF3xzpwTbJ6pkNQjZttStcc=",
+      "Fingerprint": "alplj7xuaw",
+      "Integrity": "znP3b4xn6x1L7VShud1hFWkMhRS6U1YAua9BKFCokxM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "62w348bmbl",
-      "Integrity": "DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I=",
+      "Fingerprint": "qp0hy2i42c",
+      "Integrity": "IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/cellularLife.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "q0uooz3l0k",
-      "Integrity": "+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY=",
+      "Fingerprint": "1yahmb8kqn",
+      "Integrity": "V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/webcil/cellularLife.wasm"
@@ -4742,12 +4742,12 @@
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Security.Claims.wasm"
     },
     {
-      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-x269q5gdab.gz",
+      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-af9y9zwwag.gz",
       "SourceId": "cellularLife",
       "SourceType": "Discovered",
       "ContentRoot": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=x269q5gdab}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=af9y9zwwag}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4756,14 +4756,14 @@
       "RelatedAsset": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6zcq2fmvm8",
-      "Integrity": "zj2vG7R+RKjBOJag3TQByxIDP48YYT87iLrsdpunHnc=",
+      "Fingerprint": "rg688et7in",
+      "Integrity": "u2L+CDxo2UEh+hFUuJ6YLerAEfOP1XETj2bJQ9svC9c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/index.html"
     },
     {
-      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-jz01uof5ik.gz",
+      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-alplj7xuaw.gz",
       "SourceId": "cellularLife",
       "SourceType": "Computed",
       "ContentRoot": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/",
@@ -4777,8 +4777,8 @@
       "RelatedAsset": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n81geh8pvx",
-      "Integrity": "R9zmeNGs7hROJBkn1FCnkg6hSkNASAjNjhpfvjA9/hE=",
+      "Fingerprint": "zfgheei3j2",
+      "Integrity": "gewSZY4Zi5fD+SKglz1Onsp9VR29etniu9F7OSg6Rac=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -8501,12 +8501,12 @@
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XmlDocument.wasm"
     },
     {
-      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-62w348bmbl.gz",
+      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-qp0hy2i42c.gz",
       "SourceId": "cellularLife",
       "SourceType": "Computed",
       "ContentRoot": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/cellularLife#[.{fingerprint=62w348bmbl}]!.pdb.gz",
+      "RelativePath": "_framework/cellularLife#[.{fingerprint=qp0hy2i42c}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8515,8 +8515,8 @@
       "RelatedAsset": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ab1y4kble1",
-      "Integrity": "Jn+GIxDIdtMB7/NivMinf7I8+YOx0jcrnjKswe5svu0=",
+      "Fingerprint": "q7xnh79m5b",
+      "Integrity": "GrtOkSdRmLvTF0g1B7fX10QQxDiYH4OMEX2J6geW5g8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.pdb"
@@ -8879,12 +8879,12 @@
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.IO.Compression.ZipFile.wasm"
     },
     {
-      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-xcv1fs3r73.gz",
+      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-lwt51hmu3g.gz",
       "SourceId": "cellularLife",
       "SourceType": "Discovered",
       "ContentRoot": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=xcv1fs3r73}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=lwt51hmu3g}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8893,8 +8893,8 @@
       "RelatedAsset": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/css/app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "iyh6knfz5y",
-      "Integrity": "ll+Eu0bOsB29aZWEbjW1yK13k2RJhqE8pcu1+gTANj0=",
+      "Fingerprint": "l7z36ofsud",
+      "Integrity": "/xSRljdY7735h5txzV80doRjoHV2XuUE5Mlas9GY6kc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/css/app.css"
@@ -9152,12 +9152,12 @@
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/System.Formats.Asn1.wasm"
     },
     {
-      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-q0uooz3l0k.gz",
+      "Identity": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-1yahmb8kqn.gz",
       "SourceId": "cellularLife",
       "SourceType": "Computed",
       "ContentRoot": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/cellularLife#[.{fingerprint=q0uooz3l0k}]!.wasm.gz",
+      "RelativePath": "_framework/cellularLife#[.{fingerprint=1yahmb8kqn}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9166,8 +9166,8 @@
       "RelatedAsset": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "s0qtwrbb68",
-      "Integrity": "/ASBuJRtjIYgIe5jwh3+usVMvkT+6XtuzfFGjcEw0fg=",
+      "Fingerprint": "avaz9xljac",
+      "Integrity": "OgHMy371qCeKKtnKQ+debjIpSaKYYAN7Dbw5gXDFiDc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.wasm"
@@ -9691,8 +9691,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xcv1fs3r73",
-      "Integrity": "AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc=",
+      "Fingerprint": "lwt51hmu3g",
+      "Integrity": "pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/app.css"
@@ -9775,8 +9775,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "x269q5gdab",
-      "Integrity": "96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs=",
+      "Fingerprint": "af9y9zwwag",
+      "Integrity": "yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
@@ -10747,7 +10747,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pylsb4YiLVgZAfCXnHoLpF3xzpwTbJ6pkNQjZttStcc=\""
+          "Value": "\"znP3b4xn6x1L7VShud1hFWkMhRS6U1YAua9BKFCokxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-znP3b4xn6x1L7VShud1hFWkMhRS6U1YAua9BKFCokxM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-alplj7xuaw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081122739"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12326"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gewSZY4Zi5fD+SKglz1Onsp9VR29etniu9F7OSg6Rac=\""
         },
         {
           "Name": "Last-Modified",
@@ -10756,45 +10795,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Pylsb4YiLVgZAfCXnHoLpF3xzpwTbJ6pkNQjZttStcc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-jz01uof5ik.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081109579"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12328"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"R9zmeNGs7hROJBkn1FCnkg6hSkNASAjNjhpfvjA9/hE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:32:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10810,19 +10810,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Pylsb4YiLVgZAfCXnHoLpF3xzpwTbJ6pkNQjZttStcc=\""
+          "Value": "W/\"znP3b4xn6x1L7VShud1hFWkMhRS6U1YAua9BKFCokxM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pylsb4YiLVgZAfCXnHoLpF3xzpwTbJ6pkNQjZttStcc="
+          "Value": "sha256-znP3b4xn6x1L7VShud1hFWkMhRS6U1YAua9BKFCokxM="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-jz01uof5ik.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2tcjtbpnf9-alplj7xuaw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10831,7 +10831,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12328"
+          "Value": "12326"
         },
         {
           "Name": "Content-Type",
@@ -10839,11 +10839,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R9zmeNGs7hROJBkn1FCnkg6hSkNASAjNjhpfvjA9/hE=\""
+          "Value": "\"gewSZY4Zi5fD+SKglz1Onsp9VR29etniu9F7OSg6Rac=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:32:18 GMT"
+          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10861,7 +10861,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R9zmeNGs7hROJBkn1FCnkg6hSkNASAjNjhpfvjA9/hE="
+          "Value": "sha256-gewSZY4Zi5fD+SKglz1Onsp9VR29etniu9F7OSg6Rac="
         }
       ]
     },
@@ -11003,305 +11003,7 @@
       ]
     },
     {
-      "Route": "_framework/cellularLife.62w348bmbl.pdb",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "62w348bmbl"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cellularLife.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.62w348bmbl.pdb",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-62w348bmbl.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000043008903"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23250"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jn+GIxDIdtMB7/NivMinf7I8+YOx0jcrnjKswe5svu0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "62w348bmbl"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cellularLife.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.62w348bmbl.pdb.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-62w348bmbl.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23250"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jn+GIxDIdtMB7/NivMinf7I8+YOx0jcrnjKswe5svu0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "62w348bmbl"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cellularLife.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jn+GIxDIdtMB7/NivMinf7I8+YOx0jcrnjKswe5svu0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.pdb",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.pdb",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-62w348bmbl.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000043008903"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23250"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jn+GIxDIdtMB7/NivMinf7I8+YOx0jcrnjKswe5svu0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DpncxZDJLWQ5z3Hqp/peYNesako2J6knZpti3kqMB4I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.pdb.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-62w348bmbl.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23250"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jn+GIxDIdtMB7/NivMinf7I8+YOx0jcrnjKswe5svu0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jn+GIxDIdtMB7/NivMinf7I8+YOx0jcrnjKswe5svu0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cellularLife.q0uooz3l0k.wasm",
+      "Route": "_framework/cellularLife.1yahmb8kqn.wasm",
       "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11319,11 +11021,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY=\""
+          "Value": "\"V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11333,7 +11035,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q0uooz3l0k"
+          "Value": "1yahmb8kqn"
         },
         {
           "Name": "label",
@@ -11341,18 +11043,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY="
+          "Value": "sha256-V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc="
         }
       ]
     },
     {
-      "Route": "_framework/cellularLife.q0uooz3l0k.wasm",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-q0uooz3l0k.gz",
+      "Route": "_framework/cellularLife.1yahmb8kqn.wasm",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-1yahmb8kqn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000085091899"
+          "Quality": "0.000085099140"
         }
       ],
       "ResponseHeaders": [
@@ -11362,15 +11064,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11751"
+          "Value": "11750"
         },
         {
           "Name": "ETag",
-          "Value": "\"/ASBuJRtjIYgIe5jwh3+usVMvkT+6XtuzfFGjcEw0fg=\""
+          "Value": "\"OgHMy371qCeKKtnKQ+debjIpSaKYYAN7Dbw5gXDFiDc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11390,13 +11092,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY=\""
+          "Value": "W/\"V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q0uooz3l0k"
+          "Value": "1yahmb8kqn"
         },
         {
           "Name": "label",
@@ -11404,13 +11106,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY="
+          "Value": "sha256-V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc="
         }
       ]
     },
     {
-      "Route": "_framework/cellularLife.q0uooz3l0k.wasm.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-q0uooz3l0k.gz",
+      "Route": "_framework/cellularLife.1yahmb8kqn.wasm.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-1yahmb8kqn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11419,7 +11121,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11751"
+          "Value": "11750"
         },
         {
           "Name": "Content-Type",
@@ -11427,11 +11129,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/ASBuJRtjIYgIe5jwh3+usVMvkT+6XtuzfFGjcEw0fg=\""
+          "Value": "\"OgHMy371qCeKKtnKQ+debjIpSaKYYAN7Dbw5gXDFiDc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11449,7 +11151,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q0uooz3l0k"
+          "Value": "1yahmb8kqn"
         },
         {
           "Name": "label",
@@ -11457,7 +11159,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/ASBuJRtjIYgIe5jwh3+usVMvkT+6XtuzfFGjcEw0fg="
+          "Value": "sha256-OgHMy371qCeKKtnKQ+debjIpSaKYYAN7Dbw5gXDFiDc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.pdb",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 23:55:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.pdb",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-qp0hy2i42c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043003354"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23253"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GrtOkSdRmLvTF0g1B7fX10QQxDiYH4OMEX2J6geW5g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.pdb.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-qp0hy2i42c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GrtOkSdRmLvTF0g1B7fX10QQxDiYH4OMEX2J6geW5g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GrtOkSdRmLvTF0g1B7fX10QQxDiYH4OMEX2J6geW5g8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.qp0hy2i42c.pdb",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/bin/Debug/net9.0/wwwroot/_framework/cellularLife.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 23:55:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qp0hy2i42c"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cellularLife.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.qp0hy2i42c.pdb",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-qp0hy2i42c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043003354"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23253"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GrtOkSdRmLvTF0g1B7fX10QQxDiYH4OMEX2J6geW5g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qp0hy2i42c"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cellularLife.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IhhdgPTsZ3r+rBUmAquKy/izDUl3b0WJb3FFtZsZ708="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cellularLife.qp0hy2i42c.pdb.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/snft3j68mx-qp0hy2i42c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GrtOkSdRmLvTF0g1B7fX10QQxDiYH4OMEX2J6geW5g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qp0hy2i42c"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cellularLife.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GrtOkSdRmLvTF0g1B7fX10QQxDiYH4OMEX2J6geW5g8="
         }
       ]
     },
@@ -11480,11 +11480,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY=\""
+          "Value": "\"V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11494,18 +11494,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY="
+          "Value": "sha256-V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc="
         }
       ]
     },
     {
       "Route": "_framework/cellularLife.wasm",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-q0uooz3l0k.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-1yahmb8kqn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000085091899"
+          "Quality": "0.000085099140"
         }
       ],
       "ResponseHeaders": [
@@ -11515,15 +11515,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11751"
+          "Value": "11750"
         },
         {
           "Name": "ETag",
-          "Value": "\"/ASBuJRtjIYgIe5jwh3+usVMvkT+6XtuzfFGjcEw0fg=\""
+          "Value": "\"OgHMy371qCeKKtnKQ+debjIpSaKYYAN7Dbw5gXDFiDc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11543,19 +11543,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY=\""
+          "Value": "W/\"V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+qEVV8LwCeRd1OSOYZzXCnbnPywYlIdEy+jC0ErEAyY="
+          "Value": "sha256-V0xfIkcDowf9O/MXbUPe+gtDES01fxlX25c7qBHoscc="
         }
       ]
     },
     {
       "Route": "_framework/cellularLife.wasm.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-q0uooz3l0k.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/x08kq12dm9-1yahmb8kqn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11564,7 +11564,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11751"
+          "Value": "11750"
         },
         {
           "Name": "Content-Type",
@@ -11572,11 +11572,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/ASBuJRtjIYgIe5jwh3+usVMvkT+6XtuzfFGjcEw0fg=\""
+          "Value": "\"OgHMy371qCeKKtnKQ+debjIpSaKYYAN7Dbw5gXDFiDc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:46:44 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11594,7 +11594,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/ASBuJRtjIYgIe5jwh3+usVMvkT+6XtuzfFGjcEw0fg="
+          "Value": "sha256-OgHMy371qCeKKtnKQ+debjIpSaKYYAN7Dbw5gXDFiDc="
         }
       ]
     },
@@ -71796,12 +71796,12 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-xcv1fs3r73.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-lwt51hmu3g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000420168067"
+          "Quality": "0.000427899016"
         }
       ],
       "ResponseHeaders": [
@@ -71811,15 +71811,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2379"
+          "Value": "2336"
         },
         {
           "Name": "ETag",
-          "Value": "\"ll+Eu0bOsB29aZWEbjW1yK13k2RJhqE8pcu1+gTANj0=\""
+          "Value": "\"/xSRljdY7735h5txzV80doRjoHV2XuUE5Mlas9GY6kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:31:36 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71839,13 +71839,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc=\""
+          "Value": "W/\"pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc="
+          "Value": "sha256-pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk="
         }
       ]
     },
@@ -71860,7 +71860,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5502"
+          "Value": "5409"
         },
         {
           "Name": "Content-Type",
@@ -71868,11 +71868,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc=\""
+          "Value": "\"pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:31:36 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71882,13 +71882,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc="
+          "Value": "sha256-pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk="
         }
       ]
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-xcv1fs3r73.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-lwt51hmu3g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71897,7 +71897,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2379"
+          "Value": "2336"
         },
         {
           "Name": "Content-Type",
@@ -71905,11 +71905,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ll+Eu0bOsB29aZWEbjW1yK13k2RJhqE8pcu1+gTANj0=\""
+          "Value": "\"/xSRljdY7735h5txzV80doRjoHV2XuUE5Mlas9GY6kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:31:36 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71927,18 +71927,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ll+Eu0bOsB29aZWEbjW1yK13k2RJhqE8pcu1+gTANj0="
+          "Value": "sha256-/xSRljdY7735h5txzV80doRjoHV2XuUE5Mlas9GY6kc="
         }
       ]
     },
     {
-      "Route": "css/app.xcv1fs3r73.css",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-xcv1fs3r73.gz",
+      "Route": "css/app.lwt51hmu3g.css",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-lwt51hmu3g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000420168067"
+          "Quality": "0.000427899016"
         }
       ],
       "ResponseHeaders": [
@@ -71948,15 +71948,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2379"
+          "Value": "2336"
         },
         {
           "Name": "ETag",
-          "Value": "\"ll+Eu0bOsB29aZWEbjW1yK13k2RJhqE8pcu1+gTANj0=\""
+          "Value": "\"/xSRljdY7735h5txzV80doRjoHV2XuUE5Mlas9GY6kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:31:36 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71976,13 +71976,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc=\""
+          "Value": "W/\"pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xcv1fs3r73"
+          "Value": "lwt51hmu3g"
         },
         {
           "Name": "label",
@@ -71990,12 +71990,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc="
+          "Value": "sha256-pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk="
         }
       ]
     },
     {
-      "Route": "css/app.xcv1fs3r73.css",
+      "Route": "css/app.lwt51hmu3g.css",
       "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/css/app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72005,7 +72005,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5502"
+          "Value": "5409"
         },
         {
           "Name": "Content-Type",
@@ -72013,11 +72013,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc=\""
+          "Value": "\"pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:31:36 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72027,7 +72027,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xcv1fs3r73"
+          "Value": "lwt51hmu3g"
         },
         {
           "Name": "label",
@@ -72035,13 +72035,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AaSsVL7f7a8CJDRG32h7+5no90CfjpOLvor1yT8OmEc="
+          "Value": "sha256-pYsc60+smFEdpOK3ME8q9YeBiu02piwvElAEdXUhmMk="
         }
       ]
     },
     {
-      "Route": "css/app.xcv1fs3r73.css.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-xcv1fs3r73.gz",
+      "Route": "css/app.lwt51hmu3g.css.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/v2w1j3ja0j-lwt51hmu3g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72050,7 +72050,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2379"
+          "Value": "2336"
         },
         {
           "Name": "Content-Type",
@@ -72058,11 +72058,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ll+Eu0bOsB29aZWEbjW1yK13k2RJhqE8pcu1+gTANj0=\""
+          "Value": "\"/xSRljdY7735h5txzV80doRjoHV2XuUE5Mlas9GY6kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:31:36 GMT"
+          "Value": "Tue, 18 Nov 2025 23:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72080,7 +72080,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xcv1fs3r73"
+          "Value": "lwt51hmu3g"
         },
         {
           "Name": "label",
@@ -72088,7 +72088,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ll+Eu0bOsB29aZWEbjW1yK13k2RJhqE8pcu1+gTANj0="
+          "Value": "sha256-/xSRljdY7735h5txzV80doRjoHV2XuUE5Mlas9GY6kc="
         }
       ]
     },
@@ -72555,13 +72555,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-x269q5gdab.gz",
+      "Route": "index.af9y9zwwag.html",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-af9y9zwwag.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002087682672"
+          "Quality": "0.002083333333"
         }
       ],
       "ResponseHeaders": [
@@ -72571,19 +72571,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "478"
+          "Value": "479"
         },
         {
           "Name": "ETag",
-          "Value": "\"zj2vG7R+RKjBOJag3TQByxIDP48YYT87iLrsdpunHnc=\""
+          "Value": "\"u2L+CDxo2UEh+hFUuJ6YLerAEfOP1XETj2bJQ9svC9c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:45:02 GMT"
+          "Value": "Tue, 18 Nov 2025 16:35:47 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -72599,18 +72599,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs=\""
+          "Value": "W/\"yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "af9y9zwwag"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs="
+          "Value": "sha256-yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "index.af9y9zwwag.html",
       "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72620,7 +72628,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "953"
+          "Value": "955"
         },
         {
           "Name": "Content-Type",
@@ -72628,121 +72636,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs=\""
+          "Value": "\"yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:45:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-x269q5gdab.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "478"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zj2vG7R+RKjBOJag3TQByxIDP48YYT87iLrsdpunHnc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:45:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zj2vG7R+RKjBOJag3TQByxIDP48YYT87iLrsdpunHnc="
-        }
-      ]
-    },
-    {
-      "Route": "index.x269q5gdab.html",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-x269q5gdab.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002087682672"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "478"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zj2vG7R+RKjBOJag3TQByxIDP48YYT87iLrsdpunHnc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:45:02 GMT"
+          "Value": "Tue, 18 Nov 2025 16:35:47 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x269q5gdab"
+          "Value": "af9y9zwwag"
         },
         {
           "Name": "label",
@@ -72750,13 +72658,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs="
+          "Value": "sha256-yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8="
         }
       ]
     },
     {
-      "Route": "index.x269q5gdab.html",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/index.html",
+      "Route": "index.af9y9zwwag.html.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-af9y9zwwag.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72765,7 +72673,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "953"
+          "Value": "479"
         },
         {
           "Name": "Content-Type",
@@ -72773,56 +72681,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs=\""
+          "Value": "\"u2L+CDxo2UEh+hFUuJ6YLerAEfOP1XETj2bJQ9svC9c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:45:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "x269q5gdab"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-96ppGWgCdPTmK1p+0o9AQH5wyv7ZDAxMep6thXkLkWs="
-        }
-      ]
-    },
-    {
-      "Route": "index.x269q5gdab.html.gz",
-      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-x269q5gdab.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "478"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zj2vG7R+RKjBOJag3TQByxIDP48YYT87iLrsdpunHnc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Nov 2025 14:45:02 GMT"
+          "Value": "Tue, 18 Nov 2025 16:35:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72840,7 +72703,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x269q5gdab"
+          "Value": "af9y9zwwag"
         },
         {
           "Name": "label",
@@ -72848,7 +72711,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zj2vG7R+RKjBOJag3TQByxIDP48YYT87iLrsdpunHnc="
+          "Value": "sha256-u2L+CDxo2UEh+hFUuJ6YLerAEfOP1XETj2bJQ9svC9c="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-af9y9zwwag.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002083333333"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "479"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u2L+CDxo2UEh+hFUuJ6YLerAEfOP1XETj2bJQ9svC9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 16:35:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 16:35:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yoaYgWJHJLfkZahvo8SRmKtpDNV3ZFjZ6rME/bB5cq8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/obj/Debug/net9.0/compressed/2t0weehf9s-af9y9zwwag.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u2L+CDxo2UEh+hFUuJ6YLerAEfOP1XETj2bJQ9svC9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Nov 2025 16:35:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u2L+CDxo2UEh+hFUuJ6YLerAEfOP1XETj2bJQ9svC9c="
         }
       ]
     },
