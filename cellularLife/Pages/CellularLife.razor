@@ -177,6 +177,11 @@
     int boardHeightNew = 75;
     int activeCellsNew = 2400;
     int timeStepsNew = 100;
+    int tdWidth = 5;
+    int tdHeight = 5;
+    int tdHeightNew = 5;
+    int tdWidthNew = 5;
+
 
     private void resizeGame() //assignment happens on refresh, after timer is stopped. This cicumvents a possible buffer overflow.
     {
@@ -184,6 +189,8 @@
         boardHeight = boardHeightNew;
         activeCells = activeCellsNew;
         timeSteps = timeStepsNew;
+        tdWidth = tdWidthNew;
+        tdHeight = tdHeightNew;
     }
 
 // ------------------------------------------------------
@@ -225,13 +232,13 @@
 
 
 
-<table style="border-collapse: collapse;">
+<table style="border-collapse: collapse; table-layout: fixed; width: auto; display:inline-block;"> <!-- forces correct proportions -->
 @for (int y = 0; y < boardHeight; y++)
 {
     <tr>
     @for (int x = 0; x < boardWidth; x++)
     {
-        <td style="width: 5px; height: 5px; background-color: @(board[x, y] ? "white" : "transparent");"></td> //if board returns  true = white, else black
+        <td style="width: @(tdWidth)px; height: @(tdHeight)px; background-color: @(board[x, y] ? "white" : "transparent");"></td> //if board returns  true = white, else black
     }
     </tr>
 }
@@ -253,7 +260,12 @@
         <label>Starter Cells: </label>
         <input type="number" @bind="activeCellsNew" min="0" /> 
         <label>Intervall (ms): </label>
-        <input type="number" @bind="timeStepsNew" min="1" /><br />
+        <input type="number" @bind="timeStepsNew" min="1" /><br /></p>
+        <p><label>Cell width: </label>
+        <input type="number" @bind="tdWidthNew" min="5" /> 
+        <label>Cell height: </label>
+        <input type="number" @bind="tdHeightNew" min="5" /> </p>
+        <p>
         <button class="options-box" @onclick="restartGame">&#x23EE;</button>
         <button class="options-box" @onclick="stopGame">&#9208;</button>
         <button class="options-box" @onclick="ContinueGame">▶</button></p>
