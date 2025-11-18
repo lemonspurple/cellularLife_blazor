@@ -161,7 +161,7 @@ input {
 
 .options-toggle {
     position: fixed;
-    bottom: calc(20px + 300px + 10px);
+    bottom: 20px;
     left: 20px;
     padding: 0 4px;
 
@@ -177,9 +177,9 @@ input {
 
 .fixed-bottom-left {
     position: fixed;
-    bottom: 20px;
+    bottom: 25px;
     left: 20px;
-    height: 300px;
+    height: 360px;
     z-index: 2000;
     overflow-y: auto;
     background: rgba(0, 0, 0, 0.5);

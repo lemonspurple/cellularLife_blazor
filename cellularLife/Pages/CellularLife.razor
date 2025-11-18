@@ -24,6 +24,10 @@
     bool[,] board; 
     bool isRunning = true;
     int TableWidthPx => boardWidth * tdWidth;
+    string cellAliveColor;
+    string cellDeadColor;
+    string newCellAliveColor= "#FFF";
+    string newCellDeadColor= "#000";
 
     
 
@@ -108,14 +112,16 @@
 
     protected override void OnInitialized() //Initializees board
     {
-        boardHeightNew = boardHeight;
-        boardWidthNew = boardWidth; 
-        activeCellsNew = activeCells; //Initialize values of UI
         StartGame();
     }
     
     private void StartGame() //creates the board
     {
+        boardHeightNew = boardHeight;
+        boardWidthNew = boardWidth; 
+        activeCellsNew = activeCells; //Initialize values of UI
+        cellAliveColor = newCellAliveColor;
+        cellDeadColor = newCellDeadColor;
         InitBoard();
         StartTimer();
     }
@@ -221,7 +227,7 @@
 // Hide/Show options
 // ------------------------------------------------------
     bool showOptions = true;
-    string OptionsEye => showOptions ? "⮟" : "⮝";
+    string OptionsEye => showOptions ? "Hide" : "Show";
     string MenuCssClass => showOptions ? "fixed-bottom-left open" : "fixed-bottom-left closed";
     void ToggleOptions()
     {
@@ -242,16 +248,11 @@
         <tr>
         @for (int x = 0; x < boardWidth; x++)
         {
-            <td style="width:@(tdWidth)px; height:@(tdHeight)px; background-color:@(board[x, y] ? "white" : "transparent");"></td>
+            <td style="width:@(tdWidth)px; height:@(tdHeight)px; background-color:@(board[x, y] ? (@cellAliveColor) : (@cellDeadColor));"></td>
         }
         </tr>
     }
     </table>
-
-    <button @onclick="ToggleOptions" class="options-toggle">
-        @OptionsEye
-    </button>
-
     <div class="@MenuCssClass">
         <h4><b>Options</b></h4>
         <p><label>Width: </label>
@@ -267,6 +268,10 @@
         <input type="number" @bind="tdWidthNew" min="5" /> 
         <label>Cell height: </label>
         <input type="number" @bind="tdHeightNew" min="5" /> </p>
+        <p><label>Cell color: </label>
+        <input type="text" @bind="newCellAliveColor"/> 
+        <label>Background color: </label>
+        <input type="text" @bind="newCellDeadColor"/> </p>
         <p>
         <button class="nav-box" @onclick="restartGame">&#x23EE;</button>
         <button class="nav-box" @onclick="stopGame">&#9208;</button>
@@ -275,3 +280,6 @@
         <NavLink href="info">About</NavLink>
     </div>
 </div>
+    <button @onclick="ToggleOptions" class="options-toggle">
+        @OptionsEye
+    </button>
