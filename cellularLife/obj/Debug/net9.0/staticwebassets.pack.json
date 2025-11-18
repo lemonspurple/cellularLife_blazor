@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/css/app.css"
     },
     {
+      "Id": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
       "Id": "/home/lmpl/Desktop/bikini_atoll/cellularLife/cellularLife/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
