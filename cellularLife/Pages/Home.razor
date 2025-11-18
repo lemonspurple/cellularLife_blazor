@@ -1,7 +1,7 @@
 ﻿@page "/info"
 
 <PageTitle>Info</PageTitle>
-<div id="wrapper" style="max-width:720px;">
+<div id="wrapper" style="max-width:720px; padding:15px; color:#fff;">
 <h1>Hello, visitor!</h1>
 
 <p>This is an example of a <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> implementation made in the Blaze framework / C#. </p>
@@ -12,5 +12,5 @@ The two main differences between the ConsoleApp solution is that the rendering i
 <br />
 Secondly, the Console runs on an always true while loop that paces itself through a Thread.Sleep(100). While this might be fine for a quick prototype, in the Blazor variant, I used StateHasChanged(); to update the board. This function has to be capsulated into an InvokeAsync() to work around synchronous UI requirements.
 <br />
-<p><a href="cellularlife"><h4>Play it here.</h4></a></p>
+<p><a href="/"><h4>Play it here.</h4></a></p>
 </div>

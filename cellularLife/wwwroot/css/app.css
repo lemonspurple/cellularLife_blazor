@@ -8,7 +8,7 @@ h1:focus {
 }
 
 a, .btn-link {
-    color: #0071c1;
+    color: yellow;
 }
 
 .btn-primary {
@@ -139,4 +139,11 @@ code {
   display: flex;
   flex-direction: column;
   gap: 0.3em;
+}
+
+input {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    width: 100px;
 }

@@ -227,18 +227,20 @@
 </table>
 
     <div class="options-box">
-    <h4>Options</h4>
+    <h4><b>Options</b></h4>
     <p><label>Width: </label>
     <input type="number" @bind="boardWidthNew" min="1" /> 
     <label>Height: </label>
-    <input type="number" @bind="boardHeightNew" min="1" /> 
+    <input type="number" @bind="boardHeightNew" min="1" /> </p>
+    <p>
     <label>Starter Cells: </label>
     <input type="number" @bind="activeCellsNew" min="0" /> 
     <label>Intervall (ms): </label>
-    <input type="number" @bind="timeStepsNew" min="1" /></p><br />
-    <a href="https://github.com/lemonspurple" target="_blank">🍋 LemonsPurple &commat; GitHub</a>
+    <input type="number" @bind="timeStepsNew" min="1" /><br />
+    <button class="options-box" @onclick="restartGame" alt="Restart game">&#x23EE;</button>
+    <button class="options-box" @onclick="stopGame" alt="Pause game">&#9208;</button>
+    <button class="options-box" @onclick="ContinueGame" alt="Continue game">▶</button></p>
+    <a href="https://github.com/lemonspurple" target="_blank">LemonsPurple &commat; GitHub</a><br />
+    <a href="/info" target="_blank">About</a>
     </div>
-<button class="options-box" @onclick="restartGame" style="background-color:#3a0646;
-">Restart</button><button class="options-box" @onclick="stopGame" style="background-color:#3a0646;
-">Stop</button><button class="options-box" @onclick="ContinueGame" style="background-color:#3a0646;
-">Continue</button>
+
