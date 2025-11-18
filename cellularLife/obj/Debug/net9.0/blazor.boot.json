@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "cellularLife",
   "resources": {
-    "hash": "sha256-NqfxJdECVOJeieJgAuspdepbcL6br5pfBkJqNjdPpGU=",
+    "hash": "sha256-7LZpnyVXUnZMgXXQSeW62pzcEDGanePdzOQbF1KwGWg=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.50odlujk1g.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.nxuc56wpt2.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "cellularLife.rwifqepq77.wasm": "cellularLife.wasm",
-      "cellularLife.dyljaikfrg.pdb": "cellularLife.pdb"
+      "cellularLife.9x31ndzuy9.wasm": "cellularLife.wasm",
+      "cellularLife.ne891guitq.pdb": "cellularLife.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.noby4tlk4d.js": "sha256-p9eEzXhQIsI0a5bBJhfzW15iRafgplTxT8XrO5FiH9o="
@@ -412,10 +412,10 @@
       "WindowsBase.ahs9krftg4.wasm": "sha256-bgi2FHdT0ABsUP1yKQQ2AP8qfo1V/bS/4cJFE4OUHX8=",
       "mscorlib.k5iaovx9v7.wasm": "sha256-mEFLDERlY1HMNQHzh68xOPawXvI48O1fHW9PbfXugb4=",
       "netstandard.6sr1qvn64m.wasm": "sha256-Gpf+qEqCYaCB6zqI5sNPIurnfpwRtfcWksgf3CW6mHE=",
-      "cellularLife.rwifqepq77.wasm": "sha256-e2/Y43IyLGt26LPftMN8Euu0Jgbc58MkUy0jhSBwRVU="
+      "cellularLife.9x31ndzuy9.wasm": "sha256-47pWr/Xb7w2u2fdQpVyW04LXsfCC+wGpibfI+1Si9jk="
     },
     "pdb": {
-      "cellularLife.dyljaikfrg.pdb": "sha256-GzjUyonbh7CiibBhPaMdh4VTCA60NC0XEKgDAfgGMEU="
+      "cellularLife.ne891guitq.pdb": "sha256-MSyMjHVeX+3u7CogC/5Db1L11G+4mh4Pg9qz0mn5Icw="
     }
   },
   "cacheBootResources": true,
