@@ -18,11 +18,12 @@
 
 @code{
 
-    int boardWidth = 200;
-    int boardHeight = 75;
-    int activeCells = 2400;
+    int boardWidth = 180;
+    int boardHeight = 180;
+    int activeCells = 5400;
     bool[,] board; 
     bool isRunning = true;
+    int TableWidthPx => boardWidth * tdWidth;
 
     
 
@@ -107,6 +108,9 @@
 
     protected override void OnInitialized() //Initializees board
     {
+        boardHeightNew = boardHeight;
+        boardWidthNew = boardWidth; 
+        activeCellsNew = activeCells; //Initialize values of UI
         StartGame();
     }
     
@@ -173,9 +177,9 @@
 // ------------------------------------------------------
 // Resize function
 // ------------------------------------------------------
-    int boardWidthNew = 200;
-    int boardHeightNew = 75;
-    int activeCellsNew = 2400;
+    int boardWidthNew;
+    int boardHeightNew;
+    int activeCellsNew;
     int timeStepsNew = 100;
     int tdWidth = 5;
     int tdHeight = 5;
@@ -216,7 +220,9 @@
 // ------------------------------------------------------
 // Hide/Show options
 // ------------------------------------------------------
-
+    string ToggleCssClass => showOptions 
+    ? "options-toggle options-toggle-open" 
+    : "options-toggle options-toggle-closed";
     bool showOptions = true;
     string OptionsEye => showOptions ? "⮟" : "⮝";
     void ToggleOptions()
@@ -231,48 +237,48 @@
 
 
 
-
-<table style="border-collapse: collapse; table-layout: fixed; width: auto; display:inline-block;"> <!-- forces correct proportions -->
+<div class="game-container">
+<table class="life-grid" style="border-collapse: collapse; table-layout: fixed; width: @(TableWidthPx)px; display:inline-block;"> <!-- forces correct proportions -->
 @for (int y = 0; y < boardHeight; y++)
-{
-    <tr>
-    @for (int x = 0; x < boardWidth; x++)
     {
-        <td style="width: @(tdWidth)px; height: @(tdHeight)px; background-color: @(board[x, y] ? "white" : "transparent");"></td> //if board returns  true = white, else black
+        <tr>
+        @for (int x = 0; x < boardWidth; x++)
+        {
+            <td style="width:@(tdWidth)px; height:@(tdHeight)px; background-color:@(board[x, y] ? "white" : "transparent");"></td>
+        }
+        </tr>
     }
-    </tr>
-}
-</table>
-<div class="spacer" style="margin:15px;">
-<button @onclick="ToggleOptions" style="color:yellow; background-color:transparent; border 0;">
-    @OptionsEye
-</button>
+    </table>
 
-@if (showOptions)
-{
-    <div class="options-box">
-        <h4><b>Options</b></h4>
-        <p><label>Width: </label>
-        <input type="number" @bind="boardWidthNew" min="1" /> 
-        <label>Height: </label>
-        <input type="number" @bind="boardHeightNew" min="1" /> </p>
-        <p>
-        <label>Starter Cells: </label>
-        <input type="number" @bind="activeCellsNew" min="0" /> 
-        <label>Intervall (ms): </label>
-        <input type="number" @bind="timeStepsNew" min="1" /><br /></p>
-        <p><label>Cell width: </label>
-        <input type="number" @bind="tdWidthNew" min="5" /> 
-        <label>Cell height: </label>
-        <input type="number" @bind="tdHeightNew" min="5" /> </p>
-        <p>
-        <button class="options-box" @onclick="restartGame">&#x23EE;</button>
-        <button class="options-box" @onclick="stopGame">&#9208;</button>
-        <button class="options-box" @onclick="ContinueGame">▶</button></p>
-        <a href="https://github.com/lemonspurple" target="_blank">LemonsPurple &commat; GitHub</a><br />
-        <NavLink href="info">About</NavLink>
-    </div>
-//TODO Cellsize? perhaps try backgrounds? change color?
-}
+    <button @onclick="ToggleOptions" class="options-toggle @ToggleCssClass">
+        @OptionsEye
+    </button>
+    @if (showOptions)
+    {
+        <div class="fixed-bottom-left">
+
+
+            <h4><b>Options</b></h4>
+            <p><label>Width: </label>
+            <input type="number" @bind="boardWidthNew" min="1" /> 
+            <label>Height: </label>
+            <input type="number" @bind="boardHeightNew" min="1" /> </p>
+            <p>
+            <label>Starter Cells: </label>
+            <input type="number" @bind="activeCellsNew" min="0" /> 
+            <label>Intervall (ms): </label>
+            <input type="number" @bind="timeStepsNew" min="1" /><br /></p>
+            <p><label>Cell width: </label>
+            <input type="number" @bind="tdWidthNew" min="5" /> 
+            <label>Cell height: </label>
+            <input type="number" @bind="tdHeightNew" min="5" /> </p>
+            <p>
+            <button class="nav-box" @onclick="restartGame">&#x23EE;</button>
+            <button class="nav-box" @onclick="stopGame">&#9208;</button>
+            <button class="nav-box" @onclick="ContinueGame">▶</button></p>
+            <a href="https://github.com/lemonspurple" target="_blank">LemonsPurple &commat; GitHub</a><br />
+            <NavLink href="info">About</NavLink>
+        </div>
+    }
 </div>
 
