@@ -65,11 +65,10 @@ a, .btn-link {
 }
 
     .blazor-error-boundary::after {
-        content: "An error has occurred."
+        content: "An error has occurred.";
     }
 
 .loading-progress {
-    
     position: relative;
     display: block;
     width: 8rem;
@@ -158,29 +157,22 @@ input {
 .life-grid {
     border-collapse: collapse;
     table-layout: fixed;
-    
 }
 
 .options-toggle {
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
+    position: fixed;
+    bottom: calc(20px + 300px + 10px);
+    left: 20px;
+    padding: 0 4px;
+
     color: yellow;
     background: transparent;
-    border: 0;
-    cursor: pointer;
-    z-index: 2000;
-}
-
-.options-box {
-    position: absolute;
-    top: 40px;
-    left: 8px;
-    z-index: 10;
-    background: rgba(0, 0, 0, 0.85);
-    padding: 8px 12px;
     border: 2px solid #c7c7c7;
-    height: 400px;
+    cursor: pointer;
+    z-index: 2100;
+    height: 30px;
+    backdrop-filter: blur(1px);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .fixed-bottom-left {
@@ -190,18 +182,21 @@ input {
     height: 300px;
     z-index: 2000;
     overflow-y: auto;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.5);
     padding: 12px 17px;
     color: white;
     border: 2px solid #c7c7c7;
     backdrop-filter: blur(1px);
-
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
-.options-toggle-open {
-    transform: translateY(-130px);
+.fixed-bottom-left.closed {
+    opacity: 0;
+    pointer-events: none;
 }
 
-.options-toggle-closed {
-    transform: translateY(0);
+.fixed-bottom-left.open {
+    opacity: 1;
+    pointer-events: auto;
 }
