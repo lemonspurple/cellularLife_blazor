@@ -206,6 +206,17 @@
         }
     }
 
+// ------------------------------------------------------
+// Hide/Show options
+// ------------------------------------------------------
+
+    bool showOptions = true;
+    string OptionsEye => showOptions ? "⮟" : "⮝";
+    void ToggleOptions()
+    {
+        showOptions = !showOptions;
+    }
+
 }
 
 
@@ -220,27 +231,35 @@
     <tr>
     @for (int x = 0; x < boardWidth; x++)
     {
-        <td style="width: 5px; height: 5px; background-color: @(board[x, y] ? "white" : "black");"></td> //if board returns  true = white, else black
+        <td style="width: 5px; height: 5px; background-color: @(board[x, y] ? "white" : "transparent");"></td> //if board returns  true = white, else black
     }
     </tr>
 }
 </table>
+<div class="spacer" style="margin:15px;">
+<button @onclick="ToggleOptions" style="color:yellow; background-color:transparent; border 0;">
+    @OptionsEye
+</button>
 
+@if (showOptions)
+{
     <div class="options-box">
-    <h4><b>Options</b></h4>
-    <p><label>Width: </label>
-    <input type="number" @bind="boardWidthNew" min="1" /> 
-    <label>Height: </label>
-    <input type="number" @bind="boardHeightNew" min="1" /> </p>
-    <p>
-    <label>Starter Cells: </label>
-    <input type="number" @bind="activeCellsNew" min="0" /> 
-    <label>Intervall (ms): </label>
-    <input type="number" @bind="timeStepsNew" min="1" /><br />
-    <button class="options-box" @onclick="restartGame" alt="Restart game">&#x23EE;</button>
-    <button class="options-box" @onclick="stopGame" alt="Pause game">&#9208;</button>
-    <button class="options-box" @onclick="ContinueGame" alt="Continue game">▶</button></p>
-    <a href="https://github.com/lemonspurple" target="_blank">LemonsPurple &commat; GitHub</a><br />
-    <a href="/info" target="_blank">About</a>
+        <h4><b>Options</b></h4>
+        <p><label>Width: </label>
+        <input type="number" @bind="boardWidthNew" min="1" /> 
+        <label>Height: </label>
+        <input type="number" @bind="boardHeightNew" min="1" /> </p>
+        <p>
+        <label>Starter Cells: </label>
+        <input type="number" @bind="activeCellsNew" min="0" /> 
+        <label>Intervall (ms): </label>
+        <input type="number" @bind="timeStepsNew" min="1" /><br />
+        <button class="options-box" @onclick="restartGame">&#x23EE;</button>
+        <button class="options-box" @onclick="stopGame">&#9208;</button>
+        <button class="options-box" @onclick="ContinueGame">▶</button></p>
+        <a href="https://github.com/lemonspurple" target="_blank">LemonsPurple &commat; GitHub</a><br />
+        <a href="/info" target="_blank">About</a>
     </div>
+}
+</div>
 
