@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cellularLife")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+430107b5dfc8be942c973e0ea0875b3315c2b785")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22c98c0567252adc37714877153895e24e496e34")]
 [assembly: System.Reflection.AssemblyProductAttribute("cellularLife")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cellularLife")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
