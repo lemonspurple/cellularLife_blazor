@@ -1,0 +1,76 @@
+# =========================
+# .NET / Visual Studio / Rider
+# =========================
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+AnyCPU/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# =========================
+# .NET build artifacts
+# =========================
+*.dll
+*.pdb
+*.exe
+*.cache
+*.log
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# =========================
+# ASP.NET / Blazor / WebAssembly generated stuff
+# =========================
+wwwroot/_framework/
+**/wwwroot/_framework/
+
+# Static web assets & generated json/caches
+**/*.staticwebassets.*.json
+**/staticwebassets*.json
+**/staticwebassets*.cache
+**/*.sourcelink.json
+
+# Razor / generated editorconfig & assembly info
+**/*.GeneratedMSBuildEditorConfig.editorconfig
+**/*AssemblyInfo*.cs
+**/*AssemblyInfoInputs.cache
+**/*GlobalUsings.g.cs
+
+# MSBuild / project caches
+**/*.csproj.FileListAbsolute.txt
+**/*.csproj.CoreCompileInputs.cache
+**/*.assets.cache
+**/*.nuget.dgspec.json
+**/*.nuget.g.props
+**/*.nuget.g.targets
+**/project.assets.json
+**/project.nuget.cache
+
+# Compression artifacts often created by Blazor publish/build
+**/compressed/
+**/*.gz
+**/*.wasm
+**/*.webcil
+
+# Random generated json that can appear in build output (like your segmentation-rules.json)
+**/bin/**/segmentation-rules.json
+**/obj/**/staticwebassets.build.json.cache
